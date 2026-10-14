@@ -1,0 +1,649 @@
+{
+  "brand": {
+    "initial": "Q",
+    "name": "QORI'S ROOM",
+    "tagline": "PORTFOLIO WEBSITE"
+  },
+  "nav": [
+    { "label": "Tentang", "href": "#about" },
+    { "label": "Diri Saya", "href": "#profile" },
+    { "label": "Mainan & Skill", "href": "#skills" },
+    { "label": "Proyek", "href": "#projects" },
+    { "label": "Hubungi!", "href": "#contact", "cta": true }
+  ],
+  "hero": {
+    "stamp": "★ 100% ORIGINAL TOY ★",
+    "badge": "\"You've got a friend in code!\"",
+    "greeting": "HALO, SAYA",
+    "role": "DEVELOPER",
+    "description": "Selamat datang di kotak mainan digital milik saya! Saya adalah seorang Web & Software Developer yang siap membawa ide-ide imajinatif menjadi kenyataan, menembus batas",
+    "highlight": "\"To Infinity and Beyond!\"",
+    "ctaPrimary": "Lihat Proyek",
+    "ctaSecondary": "Tarik Tali Bicara!",
+    "mascotTitle": "SPACE CADET",
+    "mascotSubtitle": "READY FOR MISSION",
+    "signature": "QORI"
+  },
+  "profile": {
+    "badge": "SHERIFF'S ID CARD",
+    "title": "DIRI SAYA",
+    "photo": "images/profile/foto-saya.jpg",
+    "photoAlt": "Foto Qori",
+    "name": "QORI",
+    "role": "Web & Software Developer",
+    "greeting": "HALO, SAYA QORI! 🤠",
+    "intro": "Saya seorang **developer** yang suka mengubah ide menjadi **aplikasi web** yang berguna. Saya senang **mempelajari teknologi baru**, bekerja dalam tim, dan menyelesaikan masalah dengan cara yang sederhana dan rapi.",
+    "hobbies": {
+      "title": "🎮 Hobi Saya",
+      "text": "Di luar jam kerja, saya suka mengutak-atik proyek kecil, bermain game, membaca hal-hal baru seputar teknologi, dan bermain musik lewat gitar dan piano.",
+      "items": [
+        {
+          "icon": "💻",
+          "label": "Ngoding"
+        },
+        {
+          "icon": "🎮",
+          "label": "Bermain Game"
+        },
+        {
+          "icon": "📚",
+          "label": "Membaca"
+        },
+        {
+          "icon": "🎨",
+          "label": "Desain"
+        },
+        {
+          "icon": "🎸",
+          "label": "Main Gitar"
+        },
+        {
+          "icon": "🎹",
+          "label": "Main Piano"
+        }
+      ]
+    },
+    "traits": {
+      "title": "⭐ Sifat Saya",
+      "text": "Beberapa sifat yang membentuk cara saya bekerja:",
+      "items": [
+        {
+          "icon": "🚀",
+          "label": "Cepat Belajar",
+          "desc": "Senang mencoba teknologi baru dan cepat beradaptasi."
+        },
+        {
+          "icon": "🔍",
+          "label": "Teliti",
+          "desc": "Memperhatikan detail agar hasil kerja rapi dan minim kesalahan."
+        },
+        {
+          "icon": "🤝",
+          "label": "Suka Kerja Sama",
+          "desc": "Nyaman berdiskusi dan berbagi ide dengan tim."
+        },
+        {
+          "icon": "✅",
+          "label": "Bertanggung Jawab",
+          "desc": "Menyelesaikan tugas sesuai tenggat dan standar yang disepakati."
+        }
+      ]
+    },
+    "education": {
+      "title": "🎓 Riwayat Pendidikan",
+      "items": [
+        {
+          "period": "20XX – Sekarang",
+          "title": "teknologi informatika",
+          "place": "bismillah ITS",
+          "desc": "moga top satu SNBT"
+        },
+        {
+          "period": "2025 – 2028",
+          "title": "Jurusan rekayasa perangkat lunak",
+          "place": "SMKN 1 PALANGKA RAYA",
+          "desc": "website dev, apps dekstop, android studio, dan jaringan"
+        }
+      ]
+    },
+    "experience": {
+      "title": "💼 Pengalaman Kerja",
+      "items": [
+        {
+          "period": "20XX – Sekarang",
+          "title": "Posisi / Jabatan",
+          "place": "Nama Perusahaan atau Proyek",
+          "points": [
+            "Tuliskan tanggung jawab utama.",
+            "Tuliskan pencapaian yang bisa diukur."
+          ]
+        },
+        {
+          "period": "20XX – 20XX",
+          "title": "Posisi / Jabatan",
+          "place": "Nama Perusahaan atau Proyek",
+          "points": [
+            "Tuliskan tanggung jawab utama.",
+            "Tuliskan teknologi yang dipakai."
+          ]
+        }
+      ]
+    }
+  },
+  "skillsSection": {
+    "badge": "BUZZ LIGHTYEAR APPROVED",
+    "title": "STAR COMMAND SKILLS",
+    "description": "Keahlian teknis dan perlengkapan senjata pemrograman yang saya gunakan untuk menyelesaikan misi web.",
+    "cardCta": "Lihat detail →"
+  },
+  "skills": [
+    {
+      "id": "frontend",
+      "name": "Frontend",
+      "icon": "💻",
+      "title": "FRONTEND",
+      "description": "HTML5, CSS3, React, JavaScript",
+      "level": 90,
+      "page": {
+        "tagline": "Bagian aplikasi yang dilihat dan disentuh langsung oleh pengguna.",
+        "overview": "Frontend adalah sisi aplikasi yang berjalan di browser: tampilan, interaksi, animasi, sampai cara data dari server ditampilkan. Tugasnya mengubah desain dan data menjadi antarmuka yang cepat, responsif, dan mudah digunakan.",
+        "tools": [
+          {
+            "name": "HTML5",
+            "note": "Membangun struktur dan makna halaman (semantik) yang ramah aksesibilitas dan mesin pencari."
+          },
+          {
+            "name": "CSS3",
+            "note": "Mengatur tata letak dengan Flexbox/Grid, desain responsif, warna, dan animasi."
+          },
+          {
+            "name": "JavaScript",
+            "note": "Menghidupkan halaman: interaksi, validasi form, dan mengambil data dari API."
+          },
+          {
+            "name": "React",
+            "note": "Membuat antarmuka dari komponen yang bisa dipakai ulang, dengan pengelolaan state yang rapi."
+          }
+        ],
+        "benefits": [
+          {
+            "title": "Kesan pertama yang baik",
+            "text": "Tampilan rapi dan cepat dimuat membuat pengguna betah dan percaya pada produk."
+          },
+          {
+            "title": "Nyaman di semua perangkat",
+            "text": "Satu kode bisa dipakai dengan baik di HP, tablet, dan desktop."
+          },
+          {
+            "title": "Aksesibilitas dan SEO",
+            "text": "HTML yang semantik membantu pembaca layar dan mesin pencari memahami isi halaman."
+          },
+          {
+            "title": "Interaksi yang jelas",
+            "text": "Validasi, filter, dan umpan balik instan mengurangi kesalahan dan kebingungan pengguna."
+          },
+          {
+            "title": "Kode UI mudah dirawat",
+            "text": "Komponen yang bisa dipakai ulang membuat fitur baru lebih cepat dan tampilan tetap konsisten."
+          }
+        ],
+        "flow": [
+          "Menerjemahkan desain (misalnya dari Figma) menjadi halaman HTML dan CSS.",
+          "Menambahkan interaksi dan logika dengan JavaScript atau React.",
+          "Menghubungkan tampilan ke API backend untuk menampilkan data nyata.",
+          "Menguji di berbagai ukuran layar dan browser, lalu mengoptimalkan kecepatan."
+        ]
+      }
+    },
+    {
+      "id": "backend",
+      "name": "Backend",
+      "icon": "⚙️",
+      "title": "BACKEND",
+      "description": "Node.js, Express, Python, REST API",
+      "level": 82,
+      "page": {
+        "tagline": "Mesin di balik layar yang mengolah logika, data, dan keamanan.",
+        "overview": "Backend adalah sisi server: menerima permintaan dari frontend, menjalankan aturan bisnis, berkomunikasi dengan database, lalu mengirim hasilnya kembali. Di sinilah autentikasi, validasi, dan keamanan data dijaga.",
+        "tools": [
+          {
+            "name": "Node.js",
+            "note": "Menjalankan JavaScript di server, sehingga frontend dan backend bisa memakai satu bahasa."
+          },
+          {
+            "name": "Express",
+            "note": "Framework ringan untuk routing, middleware, dan membangun API dengan cepat."
+          },
+          {
+            "name": "Python",
+            "note": "Bahasa serbaguna untuk API, otomasi, dan pemrosesan data."
+          },
+          {
+            "name": "REST API",
+            "note": "Standar komunikasi client dan server lewat metode seperti GET, POST, PUT, dan DELETE."
+          }
+        ],
+        "benefits": [
+          {
+            "title": "Logika terpusat dan aman",
+            "text": "Perhitungan, hak akses, dan validasi dijalankan di server sehingga tidak bisa dimanipulasi dari browser."
+          },
+          {
+            "title": "Keamanan data pengguna",
+            "text": "Autentikasi, otorisasi, dan penyimpanan kata sandi yang benar melindungi pengguna dan bisnis."
+          },
+          {
+            "title": "Satu API untuk banyak klien",
+            "text": "Web, aplikasi HP, dan layanan lain bisa memakai API yang sama."
+          },
+          {
+            "title": "Siap berkembang",
+            "text": "Struktur kode yang rapi memudahkan aplikasi tumbuh saat pengguna dan fitur bertambah."
+          },
+          {
+            "title": "Terhubung ke layanan lain",
+            "text": "Memudahkan integrasi pembayaran, email, notifikasi, dan layanan pihak ketiga."
+          }
+        ],
+        "flow": [
+          "Merancang endpoint dan kontrak API bersama tim frontend.",
+          "Mengimplementasikan logika bisnis, validasi, dan autentikasi.",
+          "Menghubungkan aplikasi ke database dan layanan eksternal.",
+          "Menguji endpoint, menangani error, dan memantau performa."
+        ]
+      }
+    },
+    {
+      "id": "database",
+      "name": "Database",
+      "icon": "🗄️",
+      "title": "DATABASE",
+      "description": "MongoDB, PostgreSQL, Firebase",
+      "level": 78,
+      "page": {
+        "tagline": "Tempat data disimpan dengan rapi, aman, dan mudah ditemukan.",
+        "overview": "Database menyimpan data aplikasi, mulai dari akun pengguna sampai transaksi. Keahlian di bidang ini mencakup merancang struktur data, menulis query yang efisien, dan menjaga data tetap konsisten serta aman.",
+        "tools": [
+          {
+            "name": "MongoDB",
+            "note": "Database NoSQL berbasis dokumen, fleksibel untuk data yang strukturnya sering berubah."
+          },
+          {
+            "name": "PostgreSQL",
+            "note": "Database relasional yang kuat, andal untuk transaksi dan query yang kompleks."
+          },
+          {
+            "name": "Firebase",
+            "note": "Layanan siap pakai dengan database realtime dan autentikasi, cocok untuk prototipe cepat."
+          }
+        ],
+        "benefits": [
+          {
+            "title": "Data konsisten dan andal",
+            "text": "Desain skema dan transaksi yang tepat mencegah data ganda atau rusak."
+          },
+          {
+            "title": "Aplikasi tetap cepat",
+            "text": "Indeks dan query yang baik menjaga pencarian dan laporan tetap cepat walau data membesar."
+          },
+          {
+            "title": "Memilih alat yang tepat",
+            "text": "Memahami SQL dan NoSQL membantu memilih penyimpanan yang cocok untuk kebutuhan proyek."
+          },
+          {
+            "title": "Aman dan bisa dipulihkan",
+            "text": "Pengaturan hak akses dan backup melindungi data dari kebocoran dan kehilangan."
+          },
+          {
+            "title": "Dasar untuk laporan",
+            "text": "Data yang tertata rapi memudahkan pembuatan laporan dan keputusan berbasis data."
+          }
+        ],
+        "flow": [
+          "Memodelkan data (entitas dan relasinya) sesuai kebutuhan fitur.",
+          "Membuat skema atau koleksi beserta indeksnya.",
+          "Menulis query dan menghubungkannya ke backend.",
+          "Memantau performa, membuat backup, dan merapikan data secara berkala."
+        ]
+      }
+    },
+    {
+      "id": "ui-ux",
+      "name": "UI/UX Design",
+      "icon": "🎨",
+      "title": "UI/UX DESIGN",
+      "description": "Figma, Interactive Wireframing, Canvas",
+      "level": 85,
+      "page": {
+        "tagline": "Merancang pengalaman yang mudah dipahami sebelum satu baris kode ditulis.",
+        "overview": "UI (User Interface) mengatur tampilan: warna, tipografi, dan tata letak. UX (User Experience) mengatur pengalaman: alur, kemudahan, dan kepuasan pengguna. Keduanya memastikan produk tidak hanya terlihat bagus, tetapi juga jelas dan enak dipakai.",
+        "tools": [
+          {
+            "name": "Figma",
+            "note": "Mendesain antarmuka dan prototipe, serta berkolaborasi dengan tim secara langsung."
+          },
+          {
+            "name": "Interactive Wireframing",
+            "note": "Kerangka halaman yang bisa diklik untuk menguji alur sejak tahap awal."
+          },
+          {
+            "name": "Canvas",
+            "note": "Membuat visual dan animasi interaktif langsung di browser lewat HTML Canvas."
+          }
+        ],
+        "benefits": [
+          {
+            "title": "Hemat waktu dan biaya",
+            "text": "Masalah alur ditemukan di tahap desain, jauh lebih murah daripada memperbaikinya setelah kode jadi."
+          },
+          {
+            "title": "Pengguna tidak bingung",
+            "text": "Alur yang jelas dan hierarki visual yang tepat membuat pengguna cepat menemukan yang dicari."
+          },
+          {
+            "title": "Komunikasi tim lebih lancar",
+            "text": "Prototipe menyamakan pandangan desainer, developer, dan klien."
+          },
+          {
+            "title": "Tampilan konsisten",
+            "text": "Warna, tipografi, dan komponen yang terstandar membuat produk terasa profesional."
+          },
+          {
+            "title": "Keputusan berdasarkan pengguna",
+            "text": "Uji coba prototipe memberi masukan nyata sebelum produk dirilis."
+          }
+        ],
+        "flow": [
+          "Memahami kebutuhan pengguna dan tujuan produk.",
+          "Membuat wireframe dan alur antar halaman.",
+          "Mendesain tampilan dan prototipe di Figma.",
+          "Menyerahkan desain ke development dan memastikan hasil akhirnya sesuai."
+        ]
+      }
+    }
+  ],
+  "skillPage": {
+    "labels": {
+      "badge": "STAR COMMAND SKILL",
+      "back": "← Kembali ke Skill",
+      "level": "Tingkat keahlian",
+      "about": "📖 Apa itu {name}?",
+      "tools": "🔧 Teknologi yang saya gunakan",
+      "benefits": "🚀 Manfaatnya dalam development",
+      "flow": "📋 Peran dalam alur development",
+      "prev": "Skill sebelumnya",
+      "next": "Skill berikutnya",
+      "cta": "🎮 Lihat Proyek Saya"
+    }
+  },
+  "projectsSection": {
+    "badge": "Qori's Favorite Toys",
+    "title": "KOTAK PROYEK MAINAN",
+    "description": "Klik mainan di bawah untuk mengeksplor karya terbaru saya!"
+  },
+  "projects": [
+    {
+      "id": "space-explorer",
+      "title": "SPACE EXPLORER",
+      "category": "Web App",
+      "emoji": "🚀",
+      "image": "images/projects/space-explorer.svg",
+      "summary": "Aplikasi simulasi luar angkasa interaktif dengan rendering visual 3D ringan.",
+      "detail": "Aplikasi penjelajahan tata surya interaktif berbasis web dengan fitur simulasi gravitasi dan informasi planet.",
+      "theme": "yellow",
+      "tags": [
+        { "label": "Three.js", "color": "blue" },
+        { "label": "React", "color": "yellow" }
+      ],
+      "demo": "",
+      "repo": ""
+    },
+    {
+      "id": "rex-runner",
+      "title": "REX'S RUNNER",
+      "category": "Game",
+      "emoji": "🦖",
+      "image": "images/projects/rex-runner.svg",
+      "summary": "Game browser arcade seru bernuansa dinosaurus lucu yang menghindari rintangan.",
+      "detail": "Game arcade piksel 2D di mana pemain mengendalikan karakter Rex untuk melompati rintangan dan mengumpulkan poin.",
+      "theme": "green",
+      "tags": [
+        { "label": "Canvas API", "color": "green" },
+        { "label": "JS Engine", "color": "purple" }
+      ],
+      "demo": "",
+      "repo": ""
+    },
+    {
+      "id": "claw-task",
+      "title": "THE CLAW TASK",
+      "category": "SaaS",
+      "emoji": "👾",
+      "image": "images/projects/claw-task.svg",
+      "summary": "Platform manajemen tugas produktivitas dengan sistem gamifikasi unik.",
+      "detail": "Aplikasi manajemen produktivitas berbasis Kanban board dengan elemen avatar alien yang berevolusi setiap tugas selesai.",
+      "theme": "purple",
+      "tags": [
+        { "label": "CSS", "color": "red" },
+        { "label": "NodeJS", "color": "blue" }
+      ],
+      "demo": "",
+      "repo": ""
+    },
+    {
+      "id": "mr-potato-chat",
+      "title": "MR. POTATO CHAT",
+      "category": "Web App",
+      "emoji": "🥔",
+      "image": "images/projects/mr-potato-chat.svg",
+      "summary": "Ruang obrolan realtime dengan avatar kentang yang bisa dipasangi mata, hidung, dan topi.",
+      "detail": "Aplikasi chat realtime berbasis WebSocket. Pengguna membuat avatar ala Mr. Potato Head, bergabung ke ruang obrolan, dan melihat siapa yang sedang mengetik secara langsung.",
+      "theme": "red",
+      "tags": [
+        {
+          "label": "WebSocket",
+          "color": "blue"
+        },
+        {
+          "label": "Express",
+          "color": "yellow"
+        }
+      ],
+      "demo": "",
+      "repo": ""
+    },
+    {
+      "id": "hamms-piggy-bank",
+      "title": "HAMM'S PIGGY BANK",
+      "category": "SaaS",
+      "emoji": "🐷",
+      "image": "images/projects/hamms-piggy-bank.svg",
+      "summary": "Pencatat keuangan pribadi lengkap dengan target tabungan dan grafik bulanan.",
+      "detail": "Platform manajemen keuangan sederhana: catat pemasukan dan pengeluaran, kelompokkan per kategori, tetapkan target tabungan, lalu lihat ringkasannya dalam grafik bulanan.",
+      "theme": "pink",
+      "tags": [
+        {
+          "label": "PostgreSQL",
+          "color": "blue"
+        },
+        {
+          "label": "REST API",
+          "color": "green"
+        }
+      ],
+      "demo": "",
+      "repo": ""
+    },
+    {
+      "id": "rc-racer",
+      "title": "RC RACER",
+      "category": "Game",
+      "emoji": "🚗",
+      "image": "images/projects/rc-racer.svg",
+      "summary": "Game balap mobil RC 2D dengan pencatat waktu putaran dan bayangan rekor terbaik.",
+      "detail": "Game balap pandangan atas di arena penuh rintangan mainan. Kendalikan mobil RC, kejar waktu putaran tercepat, dan adu dengan bayangan rekor terbaikmu sendiri.",
+      "theme": "blue",
+      "tags": [
+        {
+          "label": "Canvas API",
+          "color": "green"
+        },
+        {
+          "label": "Web Audio",
+          "color": "purple"
+        }
+      ],
+      "demo": "",
+      "repo": ""
+    },
+    {
+      "id": "slinky-streak",
+      "title": "SLINKY STREAK",
+      "category": "Tools",
+      "emoji": "🐕",
+      "image": "images/projects/slinky-streak.svg",
+      "summary": "Pelacak kebiasaan harian dengan badan Slinky yang memanjang setiap hari berturut-turut.",
+      "detail": "Aplikasi pelacak kebiasaan yang membuat konsistensi terasa menyenangkan: setiap hari yang berhasil ditandai akan memperpanjang badan Slinky, lengkap dengan statistik streak dan pengingat.",
+      "theme": "orange",
+      "tags": [
+        {
+          "label": "JavaScript",
+          "color": "yellow"
+        },
+        {
+          "label": "CSS Animation",
+          "color": "orange"
+        }
+      ],
+      "demo": "",
+      "repo": ""
+    },
+    {
+      "id": "etch-a-pad",
+      "title": "ETCH-A-PAD",
+      "category": "Tools",
+      "emoji": "✏️",
+      "image": "images/projects/etch-a-pad.svg",
+      "summary": "Papan gambar digital ala Etch A Sketch, goyangkan perangkat untuk menghapus.",
+      "detail": "Kanvas gambar sederhana yang mendukung sentuhan dan mouse. Terinspirasi Etch A Sketch: goyangkan HP untuk menghapus gambar, lalu simpan karyamu sebagai PNG.",
+      "theme": "teal",
+      "tags": [
+        {
+          "label": "Canvas API",
+          "color": "green"
+        },
+        {
+          "label": "Touch Events",
+          "color": "teal"
+        }
+      ],
+      "demo": "",
+      "repo": ""
+    },
+    {
+      "id": "bo-peep-blog",
+      "title": "BO PEEP BLOG",
+      "category": "Web App",
+      "emoji": "🐑",
+      "image": "images/projects/bo-peep-blog.svg",
+      "summary": "Blog ringan dengan editor Markdown, tag, dan pencarian cepat.",
+      "detail": "Sistem blog mini: tulis artikel dengan editor Markdown dan pratinjau langsung, atur tag dan kategori, lalu temukan tulisan lewat pencarian cepat.",
+      "theme": "yellow",
+      "tags": [
+        {
+          "label": "Markdown",
+          "color": "pink"
+        },
+        {
+          "label": "Node.js",
+          "color": "blue"
+        }
+      ],
+      "demo": "",
+      "repo": ""
+    }
+  ],
+  "woodyQuotes": [
+    "\"Ada ular di dalam sepatuku!\" 🐍",
+    "\"Seseorang telah meracuni sumur air!\" 🤠",
+    "\"ALOWWW ALOWWWWW SAYANGGGG\" ⭐",
+    "\"Meluncurlah seperti angin, Bullseye!\" 🐎",
+    "\"To Infinity and Beyond! (Tunggu, itu slogan Buzz!)\" 🚀"
+  ],
+  "claw": {
+    "title": "THE CLAW MACHINE 🛸",
+    "description": "Ada 30 boneka di dalam mesin. Aktifkan capit, arahkan, lalu ambil satu per satu sampai habis!",
+    "button": "ACTIVATE THE CLAW!",
+    "buttonOff": "MATIKAN CLAW",
+    "grabLabel": "AMBIL BONEKA",
+    "steerLabel": "ARAHKAN CLAW",
+    "hint": "Tahan tombol kanan untuk menggerakkan claw (arahnya berbalik otomatis di ujung). Saat pas di atas boneka, tekan tombol kiri!",
+    "readyMessage": "Claw siap! Arahkan dulu, lalu ambil bonekanya.",
+    "missMessages": [
+      "Yah, meleset! Geser lagi posisinya 😅",
+      "Hampir kena! Coba atur ulang 🎯",
+      "Capitnya cuma dapat angin 😜"
+    ],
+    "slots": 3,
+    "dolls": [
+      { "emoji": "👾", "name": "Alien Ungu", "alien": true },
+      { "emoji": "👽", "name": "Alien Hijau", "alien": true },
+      { "emoji": "🤖", "name": "Robot Alien", "alien": true },
+      { "emoji": "🐻", "name": "Beruang Teddy" },
+      { "emoji": "🐰", "name": "Kelinci" },
+      { "emoji": "🐼", "name": "Panda" },
+      { "emoji": "🐶", "name": "Anjing" },
+      { "emoji": "🐱", "name": "Kucing" },
+      { "emoji": "🐸", "name": "Katak" },
+      { "emoji": "🐵", "name": "Monyet" },
+      { "emoji": "🦄", "name": "Unicorn" },
+      { "emoji": "🐯", "name": "Harimau" },
+      { "emoji": "🦁", "name": "Singa" },
+      { "emoji": "🐷", "name": "Hamm si Celengan" },
+      { "emoji": "🐴", "name": "Bullseye si Kuda" },
+      { "emoji": "🐹", "name": "Hamster" },
+      { "emoji": "🐨", "name": "Koala" },
+      { "emoji": "🦊", "name": "Rubah" },
+      { "emoji": "🐙", "name": "Gurita" },
+      { "emoji": "🐧", "name": "Penguin" },
+      { "emoji": "🐥", "name": "Anak Ayam" },
+      { "emoji": "🦆", "name": "Bebek" },
+      { "emoji": "🦉", "name": "Burung Hantu" },
+      { "emoji": "🐢", "name": "Kura-kura" },
+      { "emoji": "🐬", "name": "Lumba-lumba" },
+      { "emoji": "🐳", "name": "Paus" },
+      { "emoji": "🦖", "name": "Rex si Dinosaurus" },
+      { "emoji": "🐘", "name": "Gajah" },
+      { "emoji": "🦒", "name": "Jerapah" },
+      { "emoji": "🐞", "name": "Kepik" }
+    ],
+    "caughtMessage": "Dapat {name}! {emoji}",
+    "resetMessage": "Semua boneka habis! Mesin di-reset ke pengaturan awal 🎉",
+    "newRoundMessage": "Putaran {round} dimulai: {total} boneka siap diambil!",
+    "responses": [
+      "\"The Claw is our master!\" 🤖",
+      "\"The Claw has chosen me!\" 🛸",
+      "\"I have been chosen! Farewell, my friends!\" ✨",
+      "\"Ooooooohhhhh! The Claw~~~~\" 🤩"
+    ]
+  },
+  "contactSection": {
+    "badge": "WALKIE TALKIE",
+    "title": "KIRIM PESAN SECRET!",
+    "description": "Punya proyek seru, tawaran kerja sama, atau sekadar ingin menyapa? Kirimkan sinyal radio kamu di sini!"
+  },
+  "contact": {
+    "email": "qorisandiagani@gmail.com",
+    "location": "Qori's domisili Palangka Raya",
+    "formEndpoint": "",
+    "socials": [
+      { "label": "GitHub", "icon": "🐙", "url": "https://github.com/sena84808-boop" },
+      { "label": "instagram", "icon": "📷", "url": "https://instagram.com/qory_ajaaa" }
+    ]
+  },
+  "footer": {
+    "title": "TOY STORY PORTFOLIO",
+    "subtitle": "Dibuat dengan imajinasi & semangat \"To Infinity and Beyond!\"",
+    "copyright": "Developer Portfolio • Inspired by Pixar Toy Story"
+  }
+}

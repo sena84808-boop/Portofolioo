@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#29B6F6">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="Portofolio developer bertema Toy Story: skill, proyek, dan kontak.">
+    <title>Portfolio room</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+    <!-- Google Fonts (opsional, ada font cadangan di CSS) -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Bungee&family=Nunito:wght@600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <a href="#about" class="skip-link">Lewati ke konten utama</a>
+
+    <!-- Banner error bila data.json gagal dimuat -->
+    <div id="load-error" class="load-error hidden" role="alert"></div>
+
+    <!-- Navigasi -->
+    <header class="site-header">
+        <div class="nav-box">
+            <button type="button" id="brand" class="brand" data-sound="laser" aria-label="Kembali ke atas">
+                <span id="brand-initial" class="brand-initial">Q</span>
+                <span>
+                    <span class="brand-name" data-text="brand.name">QORI'S ROOM</span>
+                    <span class="brand-tagline" data-text="brand.tagline">PORTFOLIO WEBSITE</span>
+                </span>
+            </button>
+
+            <button type="button" id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Buka menu">☰</button>
+
+            <nav id="nav-links" class="nav" aria-label="Navigasi utama"></nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="home-view">
+        <!-- Hero -->
+        <section id="about" class="section">
+            <div class="hero-card">
+                <div class="stamp" data-text="hero.stamp"></div>
+
+                <div class="hero-grid">
+                    <div class="hero-text">
+                        <div class="badge-blue"><span aria-hidden="true">🤠</span> <span data-text="hero.badge"></span></div>
+
+                        <h1 class="hero-title">
+                            <span data-text="hero.greeting">HALO, SAYA</span><br>
+                            <span class="hero-role" data-text="hero.role">DEVELOPER</span>
+                        </h1>
+
+                        <p class="hero-desc">
+                            <span data-text="hero.description"></span>
+                            <span class="highlight" data-text="hero.highlight"></span> 🚀
+                        </p>
+
+                        <div class="hero-actions">
+                            <a href="#projects" class="btn btn-yellow" data-sound="laser"><span aria-hidden="true">🎮</span> <span data-text="hero.ctaPrimary">Lihat Proyek</span></a>
+                            <button type="button" id="woody-btn" class="btn btn-red"><span aria-hidden="true">🎀</span> <span data-text="hero.ctaSecondary">Tarik Tali Bicara!</span></button>
+                        </div>
+
+                        <div id="woody-quote" class="quote-box hidden" aria-live="polite">
+                            <span class="quote-icon" aria-hidden="true">🤠</span>
+                            <p id="quote-text"></p>
+                        </div>
+                    </div>
+
+                    <div class="mascot-wrap">
+                        <div class="mascot-circle">
+                            <div class="mascot-inner">
+                                <img id="mascot" src="images/hero/mascot.svg" alt="Maskot bintang kuning" class="mascot-img">
+                                <span class="mascot-title" data-text="hero.mascotTitle">SPACE CADET</span>
+                                <span class="mascot-sub" data-text="hero.mascotSubtitle">READY FOR MISSION</span>
+                            </div>
+                            <div class="signature" data-text="hero.signature">QORI</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Diri Saya -->
+        <section id="profile" class="section">
+            <div class="profile-card reveal">
+                <div class="pf-head">
+                    <span class="tag-yellow" data-text="profile.badge">SHERIFF'S ID CARD</span>
+                    <h2 class="pf-title" data-text="profile.title">DIRI SAYA</h2>
+                </div>
+
+                <div class="pf-top">
+                    <figure class="pf-photo">
+                        <img id="pf-photo" alt="" width="400" height="500" decoding="async">
+                        <figcaption>
+                            <span class="pf-name" data-text="profile.name"></span>
+                            <span class="pf-role" data-text="profile.role"></span>
+                        </figcaption>
+                    </figure>
+                    <div class="pf-intro">
+                        <h3 class="pf-hello" data-text="profile.greeting"></h3>
+                        <p id="pf-intro-text" class="pf-intro-text"></p>
+                    </div>
+                </div>
+
+                <!-- Hobi, sifat, pendidikan, dan pengalaman dirender dari data.json -->
+                <div id="pf-body"></div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section">
+            <div class="skills-card reveal">
+                <div class="skills-head">
+                    <div>
+                        <span class="tag-lime" data-text="skillsSection.badge">BUZZ LIGHTYEAR APPROVED</span>
+                        <h2 class="skills-title" data-text="skillsSection.title">STAR COMMAND SKILLS</h2>
+                    </div>
+                    <p class="skills-desc" data-text="skillsSection.description"></p>
+                </div>
+                <div id="skills-grid" class="skills-grid"></div>
+            </div>
+        </section>
+
+        <!-- Proyek -->
+        <section id="projects" class="section">
+            <div class="projects-card">
+                <div class="section-head reveal">
+                    <span class="tag-brown" data-text="projectsSection.badge">Qori's Favorite Toys</span>
+                    <h2 class="section-title" data-text="projectsSection.title">KOTAK PROYEK MAINAN</h2>
+                    <p class="section-sub" data-text="projectsSection.description"></p>
+                </div>
+
+                <div id="project-filters" class="filters" role="group" aria-label="Filter kategori proyek"></div>
+                <div id="projects-grid" class="projects-grid"></div>
+                <p id="projects-empty" class="projects-empty hidden">Belum ada proyek di kategori ini.</p>
+            </div>
+        </section>
+
+        <!-- Mesin capit -->
+        <section id="claw" class="section">
+            <div class="claw-card reveal">
+                <h2 class="claw-title" data-text="claw.title">THE CLAW MACHINE 🛸</h2>
+                <p class="claw-desc" data-text="claw.description"></p>
+
+                <div id="claw-stage" class="claw-stage" aria-hidden="true">
+                    <div id="claw-arm" class="claw-arm">
+                        <div id="claw-line" class="claw-line"></div>
+                        <!-- Capit digambar dengan SVG (tidak bergantung pada emoji) -->
+                        <svg id="claw-head" class="claw-head" viewBox="0 0 56 46" aria-hidden="true">
+                            <rect class="claw-hub" x="19" y="0" width="18" height="11" rx="4"/>
+                            <path class="claw-prong claw-prong-l" d="M22 9 C8 14 4 30 9 41"/>
+                            <path class="claw-prong claw-prong-r" d="M34 9 C48 14 52 30 47 41"/>
+                        </svg>
+                    </div>
+                    <div id="claw-aliens" class="claw-aliens"></div>
+                </div>
+
+                <p id="claw-hint" class="claw-hint hidden" data-text="claw.hint"></p>
+
+                <!-- Muncul setelah tombol ACTIVATE ditekan -->
+                <div id="claw-controls" class="claw-controls hidden">
+                    <button type="button" id="claw-grab" class="ctrl ctrl-grab">
+                        <span class="ctrl-icon" aria-hidden="true">👇</span>
+                        <span data-text="claw.grabLabel">AMBIL BONEKA</span>
+                    </button>
+                    <button type="button" id="claw-steer" class="ctrl ctrl-steer" aria-describedby="claw-hint">
+                        <span id="steer-arrow" class="ctrl-icon" aria-hidden="true">▶</span>
+                        <span data-text="claw.steerLabel">ARAHKAN CLAW</span>
+                    </button>
+                </div>
+
+                <button type="button" id="claw-btn" class="btn btn-yellow" data-text="claw.button">ACTIVATE THE CLAW!</button>
+                <p id="claw-result" class="claw-result" aria-live="polite"></p>
+                <div class="claw-stock">
+                    <div class="claw-stock-bar" aria-hidden="true"><div id="claw-stock-fill" class="claw-stock-fill"></div></div>
+                    <p class="claw-count-line">Sisa boneka: <span id="claw-left" class="claw-count">30</span>/<span id="claw-total">30</span> &middot; Total terambil: <span id="claw-count" class="claw-count">0</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kontak -->
+        <section id="contact" class="section">
+            <div class="contact-card reveal">
+                <div class="contact-grid">
+                    <div>
+                        <span class="tag-white" data-text="contactSection.badge">WALKIE TALKIE</span>
+                        <h2 class="contact-title" data-text="contactSection.title">KIRIM PESAN SECRET!</h2>
+                        <p class="contact-desc" data-text="contactSection.description"></p>
+
+                        <div class="contact-info">
+                            <div class="info-row"><span class="info-icon" aria-hidden="true">✉️</span><a id="contact-email"></a></div>
+                            <div class="info-row"><span class="info-icon" aria-hidden="true">📍</span><span data-text="contact.location"></span></div>
+                        </div>
+                        <div id="socials" class="socials"></div>
+                    </div>
+
+                    <form id="contact-form" class="contact-form" novalidate>
+                        <div>
+                            <label for="f-name" class="form-label">Nama Rekan Mainan</label>
+                            <input id="f-name" name="name" type="text" required minlength="2" autocomplete="name" autocapitalize="words" placeholder="Woody / Buzz / Qori" class="form-input">
+                            <p class="field-error" data-error-for="name"></p>
+                        </div>
+                        <div>
+                            <label for="f-email" class="form-label">Email Komunikasi</label>
+                            <input id="f-email" name="email" type="email" required autocomplete="email" inputmode="email" autocapitalize="off" spellcheck="false" placeholder="nama@email.com" class="form-input">
+                            <p class="field-error" data-error-for="email"></p>
+                        </div>
+                        <div>
+                            <label for="f-message" class="form-label">Pesan Rahasia</label>
+                            <textarea id="f-message" name="message" rows="3" required minlength="10" maxlength="600" placeholder="Tuliskan misi atau rencana proyekmu di sini..." class="form-input"></textarea>
+                            <div class="form-row">
+                                <p class="field-error" data-error-for="message"></p>
+                                <p class="char-count"><span id="msg-count">0</span>/600</p>
+                            </div>
+                        </div>
+                        <!-- Honeypot anti-spam -->
+                        <input type="text" name="website" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true">
+                        <button type="submit" class="btn btn-red btn-block">🚀 Kirim Pesan Sinyal!</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        </div>
+
+        <!-- Halaman penjelasan skill (dirender dari data.json) -->
+        <div id="skill-view" class="hidden" role="region" aria-label="Detail skill">
+            <section class="section">
+                <article id="skill-page" class="skill-page"></article>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div>
+                <h4 class="footer-title" data-text="footer.title">TOY STORY PORTFOLIO</h4>
+                <p class="footer-sub" data-text="footer.subtitle"></p>
+            </div>
+            <div id="footer-copy" class="footer-copy"></div>
+        </div>
+    </footer>
+
+    <button type="button" id="sound-toggle" class="fab fab-left" aria-pressed="false" aria-label="Matikan suara efek" title="Suara efek">🔊</button>
+    <button type="button" id="to-top" class="fab fab-right hidden" aria-label="Kembali ke atas" title="Kembali ke atas">⬆️</button>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <!-- Modal detail proyek -->
+    <div id="project-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-box">
+            <button type="button" id="modal-x" class="modal-x" aria-label="Tutup">✕</button>
+            <img id="modal-img" src="images/placeholder.svg" alt="" class="modal-img">
+            <span id="modal-category" class="modal-category"></span>
+            <h3 id="modal-title" class="modal-title"></h3>
+            <p id="modal-desc" class="modal-desc"></p>
+            <div id="modal-tags" class="chips modal-tags"></div>
+            <div class="modal-actions">
+                <a id="modal-demo" class="btn btn-sm btn-yellow hidden" target="_blank" rel="noopener noreferrer">Lihat Demo</a>
+                <a id="modal-repo" class="btn btn-sm btn-blue hidden" target="_blank" rel="noopener noreferrer">Kode Sumber</a>
+                <button type="button" id="modal-close" class="btn btn-sm btn-green">Tutup</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
