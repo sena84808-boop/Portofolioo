@@ -7,7 +7,7 @@
 
     const DATA_URL = 'data/data.json';
     const FALLBACK_IMG = 'images/placeholder.svg';
-    const AVATAR_FALLBACK = 'images/profile/avatar-placeholder.svg';
+    const AVATAR_FALLBACK = 'images/profile/WhatsApp Image 2026-10-14 at 11.47.38.jpeg';
 
     /* ---------- Helper ---------- */
     const $  = (sel, root = document) => root.querySelector(sel);
